@@ -22,7 +22,6 @@
       <select class="form-control" id="hours">
         <option>1 hour a day</option>
         <option>3 hours a day</option>
-        <option>5 hours a day</option>
       </select>
     </div>
 
@@ -31,40 +30,50 @@
       <select class="form-control" id="months">
         <option>3 months</option>
         <option>6 months</option>
-        <option>9 months</option>
       </select>
     </div>
 
     <div class="questions">
       <h3>How much experience do you have with programming in general?</h3> 
       <select class="form-control" id="experience">
-        <option>None at all</option>
+        <option>none at all</option>
         <option>1-2 months</option>
-        <option>2 or more months</option>
       </select>
     </div>
 
     <div class="questions">
       <h3>Are you looking to land your first programming job, or are you learning just for the joy of learning?</h3> 
       <select class="form-control" id="reason">
-        <option>First job</option>
-        <option>Just for the joy</option>
-        <option>I have no idea</option>
+        <option>To land my first job in programming</option>
+        <option>Just for the joy of it</option>
       </select>
     </div>
 
     <div class="questions">
-      <h3>Do you prefer dogs or cats?</h3> 
+      <h3>Do you prefer to have a dog or cat?</h3> 
       <select class="form-control" id="pets">
-        <option>Dogs</option>
-        <option>Cats</option>
-        <option>Neither</option>
+        <option>dog</option>
+        <option>cat</option>
       </select>
     </div>
-
-    <button class=" btn btn-primary" type="submit">Submit</button>
+ 
+    <div class="button">
+      <button class="btn btn-primary" type="submit">Submit</button>
+    </div>
 
   </form>
+
+  <div id="answers">
+    <p>So, here's what you answered:</p>
+
+    <p>You're willing to spend <span id="output1"></span> learning.</p> 
+    <p>You're willing to spend <span id="output2"></span> learning.</p>  
+    <p>You have this much in programming experience: <span id="output3"></span>.</p>
+    <p>The reason you're selecting a programming language is: <span id="output4"></span>.</p>
+    <p>You're a <span id="output5"></span> type of person.</p>
+
+    <p>Given your answers, I think you should learn <span></span> as your first programming language.</p>
+  </div>
 
 </body>
 </html>

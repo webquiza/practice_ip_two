@@ -1,4 +1,13 @@
-.center {
+#answers {
+  display: none;
+  text-align: center;
+}
+
+span {
+  font-weight: bold;
+}
+
+.center, .button {
   text-align: center;
 }
 
