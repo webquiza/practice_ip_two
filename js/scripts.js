@@ -14,6 +14,5 @@ $(document).ready(function() {
     $("#output5").text(pets);
 
     $("#answers").show();
-
   });
 });
