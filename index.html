@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
+  <link href="css/styles.css" rel="stylesheet" type="text/css">
+  <script src="js/jquery-3.5.1.js"></script>
+  <script src="js/scripts.js"></script>
+  <title>Independent Project 2</title>
+</head>
+<body class="container">
+
+  <div class="jumbotron">
+    <h1 class="center">Programming Language Suggester</h1>
+
+    <h6>Can't decide which programming language to learn first? No worries, you've come to the right place. Let me help you decide! Just answer the following five questions and press the <strong>Submit</strong> button to find out.</h6>
+  </div>
+
+  <form id ="survey">
+
+    <div class="questions">
+      <h3>How many hours per day are you willing to spend learning?</h3> 
+      <select class="form-control" id="hours">
+        <option>1 hour a day</option>
+        <option>3 hours a day</option>
+        <option>5 hours a day</option>
+      </select>
+    </div>
+
+    <div class="questions">
+      <h3>How many months are you willing to spend learning?</h3> 
+      <select class="form-control" id="months">
+        <option>3 months</option>
+        <option>6 months</option>
+        <option>9 months</option>
+      </select>
+    </div>
+
+    <div class="questions">
+      <h3>How much experience do you have with programming in general?</h3> 
+      <select class="form-control" id="experience">
+        <option>None at all</option>
+        <option>1-2 months</option>
+        <option>2 or more months</option>
+      </select>
+    </div>
+
+    <div class="questions">
+      <h3>Are you looking to land your first programming job, or are you learning just for the joy of learning?</h3> 
+      <select class="form-control" id="reason">
+        <option>First job</option>
+        <option>Just for the joy</option>
+        <option>I have no idea</option>
+      </select>
+    </div>
+
+    <div class="questions">
+      <h3>Do you prefer dogs or cats?</h3> 
+      <select class="form-control" id="pets">
+        <option>Dogs</option>
+        <option>Cats</option>
+        <option>Neither</option>
+      </select>
+    </div>
+
+    <button class=" btn btn-primary" type="submit">Submit</button>
+
+  </form>
+
+</body>
+</html>
