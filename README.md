@@ -1,6 +1,6 @@
 # _Programming Language Suggester_
 
-#### _Lorem ipsum dolor sit amet, consectetur adipiscing elit._
+#### _A simple user interface to help choose which programming language to learn first._
 
 #### By _**Carlos Urquiza**_
 
@@ -8,13 +8,15 @@
 
 * _HTML_
 * _CSS_
+* _JavaScript_
+* _JQuery_
 * _Bootstrap_
 * _Git_
 * _GitHub_
 
 ## Description
 
-_Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec ac ipsum dui. Proin in mi mauris. Quisque efficitur et quam vitae sodales. Curabitur lobortis sollicitudin felis eget elementum. Mauris porta, mi sit amet viverra consectetur, magna libero dignissim tortor, ut condimentum lacus sem at leo._
+_This browser application makes suggestions on which programming language to learn first. It does so by asking the user to answer a series of questions. Based on their answers, the application will suggest to either learn JavaScript, Python or C#._
 
 ## Setup/Installation Requirements
 
@@ -32,4 +34,4 @@ _MIT_
 
 ## Contact Information
 
-_Pleae contact me at webquiza@gmail.com if you run into any issues viewing this project after following the Setup/Installation Requirements._
+_Please contact me at webquiza@gmail.com if you run into any issues viewing this project after following the Setup/Installation Requirements._
