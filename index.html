@@ -20,45 +20,50 @@
     <div class="questions">
       <h3>How many hours per day are you willing to spend learning?</h3> 
       <select class="form-control" id="hours">
-        <option value="oneHour">1 hour a day</option>
-        <option>2 hours a day</option>
-        <option>3 hours a day</option>
+        <option>Select</option>
+        <option value="javascript">1 hour a day</option>
+        <option value="python">2 hours a day</option>
+        <option value="sharp">3 hours a day</option>
       </select>
     </div>
 
     <div class="questions">
       <h3>How many months are you willing to spend learning?</h3> 
       <select class="form-control" id="months">
-        <option>3 months</option>
-        <option>6 months</option>
-        <option>9 months</option>
+        <option>Select</option>
+        <option value="javascript">3 months</option>
+        <option value="python">6 months</option>
+        <option value="sharp">9 months</option>
       </select>
     </div>
 
     <div class="questions">
       <h3>How many months experience do you have with programming?</h3> 
       <select class="form-control" id="experience">
-        <option>0 months</option>
-        <option>1-2 months</option>
-        <option>2-4 months</option>
+        <option>Select</option>
+        <option value="javascript">0 months</option>
+        <option value="python">1-2 months</option>
+        <option value="sharp">2-4 months</option>
       </select>
     </div>
 
     <div class="questions">
       <h3>Why are you looking to learn a programming language?</h3> 
       <select class="form-control" id="reason">
-        <option>To land my first job in programming</option>
-        <option>To professionaly advance in my current career</option>
-        <option>Just for the joy of it</option>
+        <option>Select</option>
+        <option value="javascript">To land my first job in programming</option>
+        <option value="python">To professionaly advance in my current career</option>
+        <option value="sharp">Just for the joy of it</option>
       </select>
     </div>
 
     <div class="questions">
       <h3>Would you prefer to own a dog, cat or goldfish?</h3> 
       <select class="form-control" id="pets">
-        <option>dog</option>
-        <option>cat</option>
-        <option>goldfish</option>
+        <option>Select</option>
+        <option value="javascript">dog</option>
+        <option value="python">cat</option>
+        <option value="sharp">goldfish</option>
       </select>
     </div>
  
@@ -71,30 +76,8 @@
   <hr>
 
   <div id="answers">
-    <h3>Here are your answers</h3>
-
-    <p>You're willing to spend <span id="output1"></span> learning.</p> 
-    <p>You're willing to spend <span id="output2"></span> learning.</p>  
-    <p>You have the following months worth in programming experience: <span id="output3"></span>.</p>
-    <p>The reason you're selecting a programming language is: <span id="output4"></span>.</p>
-    <p>You would prefer to own a <span id="output5"></span>.</p>
-
-    <hr>
-
     <h3>I recommend you learn the following programming language</h3>
-
-  </div>
-
-  <div id="languages">
-    <div id="javascript">
-      <p>JavaScript</p>
-    </div>
-    <div id="python">
-      <p>Python</p>
-    </div>
-    <div id="csharp">
-      <p>C#</p>
-    </div>
+      <p id="suggested-language"></p>
   </div>
 
 </body>
